@@ -14,6 +14,8 @@ body {
   color: #272f54;
 }
 
+
+
 .buttonform{background-color:#272f54; border: 3px solid #272f54; height:30px; color:white; font-weight:bold}
 
 .oneblock{margin-left:0px; border: 1px solid green;}
@@ -64,8 +66,10 @@ nav{position: relative; top: 0px; height: 50px; width: 100%; z-index:5}
   padding: 10px;}
   .navul li a{color: white; font-weight: bold;}
 
-  .imgindex{position: relative; height: 600px;}
-
+  .imgindex{position: relative; height: 600px; width: 100%;}
+  .imgindex .opacity1{ background: rgb(77, 73, 72, 0.7); height: 600px; width: 100%; margin: 0px	}
+  .imgindex .opacity2{ background: rgb(126, 180, 178, 0.7); height: 600px; width: 100%; margin: 0px	}
+  .imgindex .opacity3{ background: rgb(218, 189, 118, 0.7); height: 600px; width: 100%; margin: 0px	}
 
 
 
