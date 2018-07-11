@@ -53,10 +53,7 @@ font-style: normal;
 
 .solc1{font-family: myriadpro; font-size:30px; padding-left: 0px}
 
-.textleft{position: relative; left: 300px; bottom: 50px; top: 65px; width: 571px; height: 425px; text-align: justify; padding: 20px; z-index: 5;}
 .txtonebloc{font-family: 'Montserrat Bold', arial; font-size:30px;}
-.p_oneblock{font-family: 'Montserrat Regular'; font-size:19px;}
-.textleft h1{font-size: 42px;}
 
 nav{position: relative; top: 0px; height: 50px; width: 100%; z-index:5}
 .navul{
@@ -68,51 +65,9 @@ nav{position: relative; top: 0px; height: 50px; width: 100%; z-index:5}
   .navul li a{color: white; font-weight: bold;}
 
   .imgindex{position: relative; height: 600px;}
-  .div_two{
-    background-color: #272f54;
-    color: white;
-    text-align: center;
-    padding-top: 15px;
-    font-weight: bold;
-    font-size: 19px;
-    border: 3px solid white;
-    height: 81px;
-    width: 400px;
-    position: absolute;
-    top: -40px;
-    left: 42%;
-    right: 45%;
-    z-index: 5;
-  }
 
-  .div_partenaires{
-    background-color: #272f54;
-    color: white;
-    text-align: center;
-    padding-top: 10px;
-    font-weight: bold;
-    font-size: 19px;
-    border: 3px solid white;
-    width: 314px;
-    height: 81px;
-    position: absolute;
-    top: -40px;
-    left: 45%;
-    right: 45%;
-    padding-top: 15px;
-    z-index: 5;
-  }
 
-  .twoimages{
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
-  margin-bottom: 200px;
-  }
-/*
-.twoimages:nth-child(1){margin-right: 0px;}
-  .twoimages:nth-child(2){margin-left: 0px;} */
+
 
   .logo{font-size: 40px; font-family: myriadpro; font-weight: bold;}
   .slogan{font-size: 35px; font-family: myriadpro;}
@@ -124,46 +79,14 @@ nav{position: relative; top: 0px; height: 50px; width: 100%; z-index:5}
 
   footer{
   position: relative;
+  margin-top: 5px;
 }
   footer pre{
     position: absolute;
     top: 60%; /* poussé de la moitié de hauteur du référent */
-    left: 25%;
-    right: 25%;
+    left: 20%;
+    right: 20%;
     transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
   }
 
   footer pre, footer pre a{color: white; font-family: 'Montserrat Regular'; font-size: 18px;}
-
-.menu_two{
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  position: absolute;
-  right: 10px;
-  top:30%;
-  bottom: 30%;
-}
-
-.services, .solutions, .projet{
-  background-color: white;
-  border-left: 10px solid #272f54;
-  color: #272f54;
-  font-size: 25px;
-  font-family: myriadpro;
-  font-weight: bold;
-  margin-bottom: 10px;
-  height: 150px;
-  width: 800px;
-  text-align: left;
-  padding-left: 50px;
-  padding-top: 15px;}
-
-  @media (max-width: 992px) {
-  .imgindex{position: relative; height: 600px; margin-bottom: 0px;}
-  }
-
-
-
-/*input, textarea, button{width: 400px;}
-label{width: 100px;}*/
